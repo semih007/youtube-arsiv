@@ -1,0 +1,1 @@
+"""ui — tkinter arayüz katmanı."""

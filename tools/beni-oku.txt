@@ -1,0 +1,1 @@
+ffmpeg ve yt-dlp exe leri buraya koyabilsin mecburi değil

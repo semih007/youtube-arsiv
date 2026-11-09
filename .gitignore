@@ -1,0 +1,24 @@
+# --- Derleme çıktıları (yeniden üretilebilir, depoya ait değil) ---
+dist/
+build/
+*.spec.bak
+
+# --- Yerel yedekler (ffmpeg ~100 MB, yt-dlp ~22 MB) ---
+# GitHub tek dosyada 100 MB sınırı var; ffmpeg.exe bunu aşıyor.
+# Exe'ler Temp\ içine taşındı; beni-oku.txt hariç tools\ içeriği izlenmez.
+Temp/
+
+# --- Harici araçlar (tools\beni-oku.txt GitHub'a gider, exe'ler gitmez) ---
+tools/*
+!tools/*.txt
+
+# --- Python ara çıktıları ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Makineye özel ---
+# İndirme klasörü + araç yolları barındırır; ilk çalıştırmada yeniden oluşur.
+config.json
