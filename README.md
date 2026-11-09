@@ -1,3 +1,6 @@
+GLM5.3 ile yapılmış hobi projesidir destek verilmeyecektir. Olası riskleri kabul ediyorsanız indirip kullanabilirsiniz. 
+
+
 # YouTube Arşiv — Çalma Listesi Yedeği ve İndirici
 
 Windows için, **yt-dlp** ve **ffmpeg** tabanlı, grafik arayüzlü (tkinter) taşınabilir
